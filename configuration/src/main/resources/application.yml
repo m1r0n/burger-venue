@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /burger-venue
+
+logging:
+  level:
+    ROOT: INFO
+    ee.ut: DEBUG
+    org.springframework: WARN
