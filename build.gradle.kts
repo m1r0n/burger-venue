@@ -12,7 +12,7 @@ plugins {
 }
 
 application {
-    mainClass.set("org.springframework.boot.loader.JarLauncher")
+    mainClass.set("configuration.src.main.java.ee.qminder.BurgerVenueApplication.java")
 }
 
 allprojects {
@@ -44,7 +44,7 @@ allprojects {
 
     tasks.withType<Jar> {
         manifest {
-            attributes["Main-Class"] = "org.springframework.boot.loader.JarLauncher"
+            attributes["Main-Class"] = "configuration.src.main.java.ee.qminder.BurgerVenueApplication.java"
         }
     }
 
