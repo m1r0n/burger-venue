@@ -6,13 +6,8 @@ buildscript {
 
 plugins {
     java
-    application
     id("org.springframework.boot") version "2.5.4"
     id("io.spring.dependency-management") version "1.0.11.RELEASE"
-}
-
-application {
-    mainClass.set("configuration/build/classes/java/main/ee/qminder/BurgerVenueApplication")
 }
 
 allprojects {
@@ -42,9 +37,4 @@ allprojects {
         useJUnitPlatform()
     }
 
-    tasks.withType<Jar> {
-        manifest {
-            attributes["Main-Class"] = "configuration/build/classes/java/main/ee/qminder/BurgerVenueApplication"
-        }
-    }
 }
