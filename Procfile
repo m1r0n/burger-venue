@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar build/libs/burger-venue.jar
+web: java -Dserver.port=$PORT -cp configuration/build/classes ee.qminder.BurgerVenueApplication
