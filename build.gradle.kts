@@ -41,4 +41,10 @@ allprojects {
     tasks.withType<Test> {
         useJUnitPlatform()
     }
+
+    tasks.withType<Jar> {
+        manifest {
+            attributes["Main-Class"] = "configuration.src.main.java.ee.qminder.BurgerVenueApplication.java"
+        }
+    }
 }
