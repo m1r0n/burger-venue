@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -cp configuration/build/classes configuration.src.main.java.ee.qminder.BurgerVenueApplication
+web: java -Dserver.port=$PORT configuration.build.classes.java.main.ee.qminder.BurgerVenueApplication
