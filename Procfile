@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/burger-venue.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar configuration/build/libs/configuration.jar
