@@ -42,10 +42,10 @@ allprojects {
         useJUnitPlatform()
     }
 
-    tasks.withType<Jar> {
-        manifest {
-            attributes["Main-Class"] = "configuration.build.classes.java.main.ee.qminder.BurgerVenueApplication"
-        }
-    }
+    // tasks.withType<Jar> {
+    //     manifest {
+    //         attributes["Main-Class"] = "configuration.build.classes.java.main.ee.qminder.BurgerVenueApplication"
+    //     }
+    // }
 
 }
