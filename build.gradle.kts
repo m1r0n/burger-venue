@@ -44,7 +44,7 @@ allprojects {
 
     tasks.withType<Jar> {
         manifest {
-            attributes["Main-Class"] = "configuration.src.main.java.ee.qminder.BurgerVenueApplication.java"
+            attributes["Main-Class"] = "configuration.build.classes.java.main.ee.qminder.BurgerVenueApplication"
         }
     }
 
